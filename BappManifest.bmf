@@ -1,0 +1,12 @@
+Uuid: f6c905c76dd44814b658e4826b5c6efa
+ExtensionType: 1
+Name: BugPoC
+RepoName: bugpoc
+ScreenVersion: 1.0
+SerialVersion: 0
+MinPlatformVersion: 0
+ProOnly: False
+Author: BugPoC-Ryan
+ShortDescription: Send raw HTTP requests to BugPoC.com
+EntryPoint: BugPoC.jar
+BuildCommand: javac BurpExtender.java && jar cf BugPoC.jar BurpExtender.class
