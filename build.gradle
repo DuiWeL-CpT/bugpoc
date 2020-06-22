@@ -21,7 +21,7 @@ sourceSets {
 
 
 task fatJar(type: Jar) {
-    baseName = project.name + '-new'
+    baseName = project.name
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
 }
